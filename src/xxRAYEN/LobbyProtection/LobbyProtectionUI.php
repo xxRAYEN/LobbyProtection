@@ -35,9 +35,9 @@ class Main extends PluginBase implements Listener{
 			$event1->setCancelled();
 			$event2->setCancelled();
 			$event3->setCancelled();
-			$sender1->sendMessage("§7[ §b§lSYSTEm §r§7] §cYou haven't enough permissions for that!");
-			$sender2->sendMessage("§7[ §b§lSYSTEm §r§7] §cYou haven't enough permissions for that!");
-			$sender3->sendMessage("§7[ §b§lSYSTEm §r§7] §cYou haven't enough permissions for that!");
+			$sender1->sendMessage("§7[ §b§lSYSTEM §r§7] §cMissing Permission: perm.protection");
+			$sender2->sendMessage("§7[ §b§lSYSTEM §r§7] §cMissing Permission: perm.protection");
+			$sender3->sendMessage("§7[ §b§lSYSTEM §r§7] §cMissing Permission: perm.protection");
 		}
 	}
 }
